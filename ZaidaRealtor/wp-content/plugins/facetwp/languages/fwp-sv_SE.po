@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FacetWP\n"
+"POT-Creation-Date: 2015-06-03 20:21-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Matt Gibbs <hello@facetwp.com>\n"
+"Language-Team: Johan Falk <johan@wpkonsulterna.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-ajax.php:192
+msgid "Settings saved"
+msgstr "Inställningarna uppdaterade"
+
+#: includes/class-ajax.php:195
+msgid "Error: invalid JSON"
+msgstr "Fel: Ogiltig JSON"
+
+#: includes/class-ajax.php:332
+msgid "Nothing to import"
+msgstr "Inget att importera"
+
+#: includes/class-ajax.php:368
+msgid "Imported"
+msgstr "Importerade"
+
+#: includes/class-ajax.php:371
+msgid "Skipped"
+msgstr "Hoppade över"
+
+#: includes/class-ajax.php:402
+msgid "Error"
+msgstr "Fel"
+
+#: includes/class-facet.php:355 includes/class-facet.php:557
+msgid "of"
+msgstr "av"
+
+#: includes/class-facet.php:472 includes/facets/checkboxes.php:318
+#: includes/facets/dropdown.php:225 includes/facets/hierarchy.php:247
+msgid "Sort by"
+msgstr "Sortera efter"
+
+#: includes/class-facet.php:476
+msgid "Title (A-Z)"
+msgstr "Titel (A-Ö)"
+
+#: includes/class-facet.php:483
+msgid "Title (Z-A)"
+msgstr "Titel (Ö-A)"
+
+#: includes/class-facet.php:490
+msgid "Date (Newest)"
+msgstr "Datum (senaste)"
+
+#: includes/class-facet.php:497
+msgid "Date (Oldest)"
+msgstr "Datum (äldsta)"
+
+#: includes/class-facet.php:556
+msgid "Page"
+msgstr "Sida"
+
+#: includes/facets/autocomplete.php:7
+msgid "Autocomplete"
+msgstr "Automatisk komplettering"
+
+#: includes/facets/autocomplete.php:23
+msgid "Start typing..."
+msgstr "Börja skriva..."
+
+#: includes/facets/autocomplete.php:24
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/facets/checkboxes.php:7
+msgid "Checkboxes"
+msgstr "Kryssrutor"
+
+#: includes/facets/checkboxes.php:303 includes/facets/dropdown.php:210
+msgid "Parent term"
+msgstr "Föräldrabenämning"
+
+#: includes/facets/checkboxes.php:321 includes/facets/dropdown.php:228
+#: includes/facets/hierarchy.php:250
+msgid "Facet Count"
+msgstr "Fasettantal"
+
+#: includes/facets/checkboxes.php:322 includes/facets/dropdown.php:229
+#: includes/facets/hierarchy.php:251
+msgid "Display Value"
+msgstr "Visningsvärde"
+
+#: includes/facets/checkboxes.php:323 includes/facets/dropdown.php:230
+#: includes/facets/hierarchy.php:252
+msgid "Raw Value"
+msgstr "Obearbetat värde"
+
+#: includes/facets/checkboxes.php:329
+msgid "Behavior"
+msgstr "Beteende"
+
+#: includes/facets/checkboxes.php:332
+msgid "How should multiple selections affect the results?"
+msgstr "Hur ska flera val påverkar resultatet?"
+
+#: includes/facets/checkboxes.php:337
+msgid "Narrow the result set"
+msgstr "Begränsa sökresultatet"
+
+#: includes/facets/checkboxes.php:338
+msgid "Widen the result set"
+msgstr "Bredda sökresultatet"
+
+#: includes/facets/checkboxes.php:344 includes/facets/dropdown.php:236
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: includes/facets/checkboxes.php:347 includes/facets/dropdown.php:239
+msgid "Is this a hierarchical taxonomy?"
+msgstr "Är detta en hierarkisk taxonomi?"
+
+#: includes/facets/checkboxes.php:352 includes/facets/checkboxes.php:367
+#: includes/facets/checkboxes.php:382 includes/facets/dropdown.php:244
+msgid "No"
+msgstr "Nej"
+
+#: includes/facets/checkboxes.php:353 includes/facets/checkboxes.php:368
+#: includes/facets/checkboxes.php:383 includes/facets/dropdown.php:245
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/facets/checkboxes.php:359
+msgid "Show ghosts"
+msgstr "Visa spöken"
+
+#: includes/facets/checkboxes.php:362
+msgid "Show choices that would return zero results?"
+msgstr "Visa val som skulle inte skulle ge några sökresultat?"
+
+#: includes/facets/checkboxes.php:374
+msgid "Preserve ghost order"
+msgstr "Bevara spökordning"
+
+#: includes/facets/checkboxes.php:377
+msgid "Keep ghost choices in the same order?"
+msgstr "Håll spökval i samma ordning?"
+
+#: includes/facets/checkboxes.php:389 includes/facets/dropdown.php:251
+#: includes/facets/hierarchy.php:258
+msgid "Count"
+msgstr "Antal"
+
+#: includes/facets/checkboxes.php:392 includes/facets/dropdown.php:254
+#: includes/facets/hierarchy.php:261
+msgid "The maximum number of facet choices to show"
+msgstr "Det maximala antalet fasettval att visa"
+
+#: includes/facets/date_range.php:7
+msgid "Date Range"
+msgstr "Datumintervall"
+
+#: includes/facets/date_range.php:22 includes/facets/date_range.php:123
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: includes/facets/date_range.php:26 includes/facets/date_range.php:124
+msgid "End Date"
+msgstr "Slutdatum"
+
+#: includes/facets/date_range.php:119
+msgid "Fields to show"
+msgstr "Fält att visa"
+
+#: includes/facets/date_range.php:122
+msgid "Both"
+msgstr "Båda"
+
+#: includes/facets/dropdown.php:7
+msgid "Dropdown"
+msgstr "Rullgardin"
+
+#: includes/facets/dropdown.php:85 includes/facets/dropdown.php:205
+#: includes/facets/hierarchy.php:74
+msgid "Any"
+msgstr "Alla"
+
+#: includes/facets/dropdown.php:196
+msgid "Default label"
+msgstr "Standardetikett"
+
+#: includes/facets/hierarchy.php:7
+msgid "Hierarchy"
+msgstr "Hierarki"
+
+#: includes/facets/hierarchy.php:125
+msgid "More"
+msgstr "Fler"
+
+#: includes/facets/hierarchy.php:126
+msgid "Less"
+msgstr "Färre"
+
+#: includes/facets/hierarchy.php:230 templates/page-settings.php:300
+msgid "Data source"
+msgstr "Datakälla"
+
+#: includes/facets/hierarchy.php:233
+msgid "The data used to populate this facet"
+msgstr "Datan som används för denna fasett"
+
+#: includes/facets/number_range.php:7
+msgid "Number Range"
+msgstr "Sifferintervall"
+
+#: includes/facets/number_range.php:19
+msgid "Min"
+msgstr "Min"
+
+#: includes/facets/number_range.php:21
+msgid "Max"
+msgstr "Max"
+
+#: includes/facets/search.php:7
+msgid "Search"
+msgstr "Sök"
+
+#: includes/facets/search.php:19
+msgid "Enter keywords"
+msgstr "Ange sökord"
+
+#: includes/facets/search.php:144
+msgid "Search engine"
+msgstr "Sökmotor"
+
+#: includes/facets/search.php:147
+msgid "WP Default"
+msgstr "WP Standard"
+
+#: includes/facets/search.php:149
+msgid "Default"
+msgstr "Standard"
+
+#: includes/facets/search.php:156
+msgid "Placeholder text"
+msgstr "Platshållartext"
+
+#: includes/facets/slider.php:7
+msgid "Slider"
+msgstr "Reglage"
+
+#: includes/facets/slider.php:22
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/facets/slider.php:256
+msgid "Prefix"
+msgstr "Prefix"
+
+#: includes/facets/slider.php:259
+msgid "Text that appears before each slider value"
+msgstr "Text som visas innan varje reglagevärde"
+
+#: includes/facets/slider.php:266
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/facets/slider.php:269
+msgid "Text that appears after each slider value"
+msgstr "Text som visas efter varje reglage värde"
+
+#: includes/facets/slider.php:276
+msgid "Format"
+msgstr "Format"
+
+#: includes/facets/slider.php:279
+msgid "The number format"
+msgstr "Nummerformat"
+
+#: includes/facets/slider.php:300
+msgid "Step"
+msgstr "Steg"
+
+#: includes/facets/slider.php:303
+msgid "The amount of increase between intervals"
+msgstr "Mängden ökningen mellan intervaller"
+
+#: templates/page-settings.php:21
+msgid "Not yet activated"
+msgstr "Ännu inte aktiverad"
+
+#: templates/page-settings.php:26
+msgid "License active"
+msgstr "Licensen är aktiv"
+
+#: templates/page-settings.php:27
+msgid "expires"
+msgstr "går ut"
+
+#: templates/page-settings.php:49
+msgid "Posts"
+msgstr "Inlägg"
+
+#: templates/page-settings.php:51
+msgid "Post Type"
+msgstr "Inläggstyp"
+
+#: templates/page-settings.php:52
+msgid "Post Date"
+msgstr "Inläggsdatum"
+
+#: templates/page-settings.php:53
+msgid "Post Modified"
+msgstr "Inlägg ändrat"
+
+#: templates/page-settings.php:54
+msgid "Post Title"
+msgstr "Inläggstitel"
+
+#: templates/page-settings.php:55
+msgid "Post Author"
+msgstr "Inläggsförfattare"
+
+#: templates/page-settings.php:59
+msgid "Taxonomies"
+msgstr "Taxonomier"
+
+#: templates/page-settings.php:63
+msgid "Custom Fields"
+msgstr "Egna fält"
+
+#: templates/page-settings.php:92
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: templates/page-settings.php:93
+msgid "Facets"
+msgstr "Fasetter"
+
+#: templates/page-settings.php:94
+msgid "Templates"
+msgstr "Mallar"
+
+#: templates/page-settings.php:95
+msgid "Settings"
+msgstr "Inställningar"
+
+#: templates/page-settings.php:96
+msgid "Support"
+msgstr "Support"
+
+#: templates/page-settings.php:130
+msgid "Re-index"
+msgstr "Återindexera"
+
+#: templates/page-settings.php:131 templates/page-settings.php:150
+#: templates/page-settings.php:169
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: templates/page-settings.php:133 templates/page-settings.php:152
+msgid "Add New"
+msgstr "Skapa Ny"
+
+#: templates/page-settings.php:177
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: templates/page-settings.php:180
+msgid "Activate"
+msgstr "Aktivera"
+
+#: templates/page-settings.php:191
+msgid "Permalink Type"
+msgstr "Permalänktyp"
+
+#: templates/page-settings.php:194
+msgid "How should permalinks be constructed?"
+msgstr "Hur ska permalänkar byggas upp?"
+
+#: templates/page-settings.php:199
+msgid "URL Hash"
+msgstr "URL-Hash"
+
+#: templates/page-settings.php:200
+msgid "GET variables"
+msgstr "GET variabler"
+
+#: templates/page-settings.php:202
+msgid "GET variables are recommended."
+msgstr "GET variabler rekommenderas."
+
+#: templates/page-settings.php:207
+msgid "Term URLs"
+msgstr "Benämningsurl:er"
+
+#: templates/page-settings.php:210
+msgid "What should appear in the URL for taxonomy terms?"
+msgstr "Vad ska visas i url:en för taxonomibenämningar?"
+
+#: templates/page-settings.php:215
+msgid "Term ID"
+msgstr "Term-ID"
+
+#: templates/page-settings.php:216
+msgid "Slug"
+msgstr "Slug"
+
+#: templates/page-settings.php:218
+msgid "Please re-index after changing this value."
+msgstr "Vänligen återindexera efter att du bytt detta värde."
+
+#: templates/page-settings.php:223
+msgid "Separators"
+msgstr "separatorer"
+
+#: templates/page-settings.php:226
+msgid "Thousands"
+msgstr "Tusen"
+
+#: templates/page-settings.php:228
+msgid "Decimal"
+msgstr "Decimala talsystemet"
+
+#: templates/page-settings.php:239 templates/page-settings.php:247
+msgid "Export"
+msgstr "Export"
+
+#: templates/page-settings.php:258 templates/page-settings.php:263
+msgid "Import"
+msgstr "Import"
+
+#: templates/page-settings.php:261
+msgid "Paste the import code here"
+msgstr "Klistra importkoden här"
+
+#: templates/page-settings.php:262
+msgid "Overwrite existing items?"
+msgstr "Skriv över befintliga objekt?"
+
+#: templates/page-settings.php:282 templates/page-settings.php:330
+msgid "Label"
+msgstr "Etikett"
+
+#: templates/page-settings.php:289
+msgid "Facet type"
+msgstr "Fasetttyp"
+
+#: templates/page-settings.php:322
+msgid "Delete Facet"
+msgstr "Radera fasett"
+
+#: templates/page-settings.php:341
+msgid "Query Arguments"
+msgstr "Frågeargument"
+
+#: templates/page-settings.php:351
+msgid "Display Code"
+msgstr "Visningskod"
+
+#: templates/page-settings.php:359
+msgid "Delete Template"
+msgstr "Radera mall"
+
+#~ msgid "Unable to connect to activation server"
+#~ msgstr "Kan inte ansluta till aktiveringsservern"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Activate license"
+#~ msgstr "Aktivera licens"
+
+#~ msgid "days left"
+#~ msgstr "dagar kvar"
+
+#~ msgid "expired"
+#~ msgstr "utgånget"
+
+#~ msgid "Renew license"
+#~ msgstr "Förnya licens"
+
+#~ msgid "Thousands Separator"
+#~ msgstr "Tusentalsavgränsare"
+
+#~ msgid "Decimal Separator"
+#~ msgstr "Decimalavgränsare"
+
+#~ msgid "Add Template"
+#~ msgstr "Lägg till mall"
