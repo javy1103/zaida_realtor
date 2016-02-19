@@ -1,0 +1,253 @@
+/*
+	Theme Name: RealHomes Theme
+	Theme URI: http://themeforest.net/item/real-homes-wordpress-real-estate-theme/5373914
+	Description: A nice, clean and feature rich theme for Real Estate Websites.
+	Author: Inspiry Themes
+	Author URI: http://www.inspirythemes.com/
+	Version: 1.8
+	Text Domain: framework
+    Domain Path: /languages
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Tags: custom-background, threaded-comments, translation-ready, light, one-column, two-columns, three-columns, four-columns, custom-menu, theme-options
+
+	----------------------------------------------------------------------------------------------------------------*/
+ul#menu-footer-one li {
+	background: none !important;
+	padding-left: 0px !important;
+	font-size: 15px !important;
+}
+
+#google_language_translator, #language {
+   float:right !important;
+   margin-top: 5px;
+}
+
+.facetwp-checkbox{
+	background-position: 0 !important;
+}
+
+.facetwp-facet {
+	margin-bottom: 15px !important
+}
+
+.facetwp-page, .facetwp-pager-label {
+  margin-bottom: 7px;
+  display: inline-block;
+  padding: 7px !important;
+  margin-right: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: 1px solid rgba(183,92,22,1);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, #ffa366 0, #FF6600 100%);
+  background: -moz-linear-gradient(180deg, #ffa366 0, #FF6600 100%);
+  background: linear-gradient(180deg, #ffa366 0, #FF6600 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 0 0 3px rgba(0,0,0,0.09);
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.09);
+  text-shadow: 0 1px 2px rgba(181,87,0,1);
+  padding: 7px;
+}
+
+.facetwp-pager {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body.single-agent .page-head .container {
+	display: none !important;
+}
+body.single-agent .container .title-heading {
+	display: none !important;
+}
+.single-agent .lisitng-grid-layout .main {
+	margin: 0px !important;
+}
+.main-menu {
+	background-color: #1e3c5b;
+	background-image: -moz-linear-gradient(top, #19324c, #264b72);
+	background-image: -ms-linear-gradient(top, #19324c, #264b72);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#19324c), to(#264b72));
+	background-image: -webkit-linear-gradient(top, #19324c, #264b72);
+	background-image: -o-linear-gradient(top, #19324c, #264b72);
+	background-image: linear-gradient(top, #19324c, #264b72);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19324c', endColorstr='#264b72', GradientType=0);
+	background-color: #1e3c5b;
+	background-image: -moz-linear-gradient(top, #19324c, #264b72);
+	background-image: -ms-linear-gradient(top, #19324c, #264b72);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#19324c), to(#264b72));
+	background-image: -webkit-linear-gradient(top, #19324c, #264b72);
+	background-image: -o-linear-gradient(top, #19324c, #264b72);
+	background-image: linear-gradient(top, #19324c, #264b72);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19324c', endColorstr='#264b72', GradientType=0);
+
+}
+
+.inner-wrapper {
+	background-color: #fafafa !important;
+}
+div.home-circles .wpb_heading {
+	color: #417AB7 !important;
+	text-shadow: 1px 0 2px #19324c;
+}
+
+/*------------- Remove main container borders ------------*/
+.main {
+	border-left: none !important;
+	border-right: none !important;
+}
+.inner-wrapper {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+.property-items {
+	background: none !important;
+}
+.property-items .narrative {
+	display: none;
+}
+
+@media (min-width: 980px){
+
+	.tagline-slogan {
+    	   font-size: 22px;
+	   line-height: 30px;
+    	   float: left;
+	   padding-left: 40px;
+	   font-style: italic;
+    	   margin-top: 0px;
+	   font-weight: 300 !important;
+	}
+
+	#header-top {
+	   width: 85%;
+	   float: right;
+	   border-width: 0px 0px 1px 0px;
+	   -webkit-border-image: -webkit-gradient(linear, 100% 0, 0 0, #19324c, to(rgba(0, 0, 0, 0))) 100% 1;
+	   -webkit-border-image: -webkit-linear-gradient(right, #19324c, rgba(0, 0, 0, 0)) 100% 1;
+	   -o-border-image: -o-linear-gradient(right, #19324c, rgba(0, 0, 0, 0)) 100% 1;
+	   -moz-border-image: -moz-linear-gradient(right, #19324c, rgba(0, 0, 0, 0)) 100% 1;
+	   margin-bottom: 30px;
+	}
+
+	.main-menu {
+		border-top-left-radius:15px;
+	}
+
+	.advance-search .as-form-wrap {
+  		padding: 15px 31px 0 !important;
+	}
+
+	ul#menu-useful-links > li.menu-item:first-child > a {
+		border-top-left-radius:15px;
+	}
+
+	.contact-number, .contact-number .outer-strip, .contact-number .fa-phone {
+  		text-shadow: 0 0 5px rgba(127,185,224,0.91) ;
+		background-color: #1e3c5b;
+  		background-image: -moz-linear-gradient(top, #19324c, #264b72);
+  		background-image: -ms-linear-gradient(top, #19324c, #264b72);
+  		backound-image: -webkit-gradient(linear, 0 0, 0 100%, from(#19324c), to(#264b72));
+  		background-image: -webkit-linear-gradient(top, #19324c, #264b72);
+  		background-image: -o-linear-gradient(top, #19324c, #264b72);
+  		background-image: linear-gradient(top, #19324c, #264b72);
+  		background-repeat: repeat-x;
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19324c', endColorstr='#264b72', GradientType=0);
+  		background-color: #1e3c5b;
+  		background-image: -moz-linear-gradient(top, #19324c, #264b72);
+  		background-image: -ms-linear-gradient(top, #19324c, #264b72);
+  		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#19324c), to(#264b72));
+  		background-image: -webkit-linear-gradient(top, #19324c, #264b72);
+  		background-image: -o-linear-gradient(top, #19324c, #264b72);
+  		background-image: linear-gradient(top, #19324c, #264b72);
+  		background-repeat: repeat-x;
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#19324c', endColorstr='#264b72', GradientType=0);, GradientType=0);
+	}
+	.header-wrapper {
+		background: url("../realhomes/images/header-bg.png") repeat-x;
+    		
+	}
+
+	.main-menu ul li.current-menu-item > a, .main-menu ul li.current_page_item > a, .main-menu ul li:hover > a {
+		background-color: #122335;
+  		background-image: -moz-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -ms-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0c1925), to(#19324c));
+  		background-image: -webkit-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -o-linear-gradient(top, #0c1925, #19324c);
+  		background-image: linear-gradient(top, #0c1925, #19324c);
+  		background-repeat: repeat-x;
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c1925', endColorstr='#19324c', GradientType=0);
+  		background-color: #122335;
+  		background-image: -moz-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -ms-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0c1925), to(#19324c));
+  		background-image: -webkit-linear-gradient(top, #0c1925, #19324c);
+  		background-image: -o-linear-gradient(top, #0c1925, #19324c);
+  		background-image: linear-gradient(top, #0c1925, #19324c);
+  		background-repeat: repeat-x;
+  		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c1925', endColorstr='#19324c', GradientType=0);
+	}
+	
+}
+.social_networks li a, .user-nav a {
+	color: #19324c !important;
+}
+
+/* -------------------------  Hover effect on property items --------------------------*/
+
+.property-item:hover {
+	box-shadow: 0 0 3px grey;
+}
+
+/* ---------------------- Submit & Pagination button style ---------------------*/
+input.real-btn[type="submit"], a.real-btn, .sf-field-submit input {
+  display: inline-block;
+  font-size: 16px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: 1px solid rgba(183,92,22,1);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, #ffa366 0, #FF6600 100%);
+  background: -moz-linear-gradient(180deg, #ffa366 0, #FF6600 100%);
+  background: linear-gradient(180deg, #ffa366 0, #FF6600 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 0 0 3px rgba(0,0,0,0.09) ;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.09) ;
+  text-shadow: 0 1px 2px rgba(181,87,0,1) ;
+}
+input.real-btn[type="submit"]:hover, a.real-btn:hover, a.real-btn.current:focus:active {
+  background: #FF6600;
+}
+
+.header-wrapper, #contact-email, #contact-email a, .user-nav a, .social_networks li a {
+	color: #19324c !important;
+}
